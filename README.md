@@ -1,3 +1,32 @@
+# Movies GPT
+
+ - create react app
+ - configured tailwindcss
+ - Header 
+ - login form
+ - signup form 
+ - Firebase for Authentication and Deployment
+
+
+# Features
+- Login/Sign up     
+ - Signin/ signup form
+ - redirect to browse page
+- Browse (after authentication)
+ - Header
+ - Main Movie
+   - Trailer in background
+   - TItle& description
+   - Movie suggestions
+     - Movie lists * n
+- Movies GPT
+  - search bar
+  - Movie suggestions
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
