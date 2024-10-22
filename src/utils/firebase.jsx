@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
+import { FIREBASE_API_KEY } from "./constants";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -9,7 +10,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC6qI9xwu3RsXFSC6pApiJR0iZI4iROFnk",
+  apiKey: FIREBASE_API_KEY,
   authDomain: "moviesgpt-4e0fe.firebaseapp.com",
   projectId: "moviesgpt-4e0fe",
   storageBucket: "moviesgpt-4e0fe.appspot.com",
